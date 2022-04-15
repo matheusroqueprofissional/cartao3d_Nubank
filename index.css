@@ -1,0 +1,424 @@
+html, body{
+    min-height: 400px;
+    align-items: center;
+    justify-content: center;
+    background-color: #cd92e4;
+    
+  }
+
+  main{
+    justify-items: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+  }
+  header{
+      position: relative;
+      background-color: white;
+      bottom: 41px;
+      right: 20px;
+      width: 1548px;
+  }
+
+
+  h1{
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #612F74;
+  }
+  
+
+.title-nubank{
+    position: relative;
+    display: flex;
+    left: 30px;
+    font-size: 60px;
+    width: 300px;
+    
+
+}
+
+  .flip-container {
+    width: 300px;
+    height: 200px;
+    perspective: 1000px;
+  }
+
+  
+  
+  .flipper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: transform 4s;
+    transform-style: preserve-3d;
+  }
+  
+   .flip-container:hover .flipper{
+      transform: rotateY(180deg);
+  }
+  
+  .front, .back{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+  }
+  
+  .back{
+    transform: rotateY(180deg);
+  }
+
+
+
+
+
+
+.cartao{
+    right: 150px;
+    position: relative;
+    border-radius: 40px;
+    width: 560px;
+    height: 300px;
+    background-color:#612F74;
+}
+
+.nubank-title{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-items: center;
+    top: 5px;
+    left: 20px;
+    color: #612F74;
+    position: absolute;
+}
+
+
+
+
+
+
+
+/*mastercardlogo*/
+
+
+
+
+  
+  /* actual mastercard icon
+   *
+   * see spec here: 
+   *
+   * https://brand.mastercard.com/brandcenter/mastercard-brand-mark.html
+   *
+  */
+  
+  .mastercard-icon {
+    display: inline-block;
+    height: 1em;
+    isolation: isolate;
+    position: relative;
+    line-height: 1em;
+    vertical-align: middle;
+    width: 1.611em;
+    left: 450px;
+  }
+  
+  .mastercard-icon::before,
+  .mastercard-icon::after {
+    border-radius: 110px;
+    content: "";
+    display: inline-block;
+    height: 5em;
+    position: absolute;
+    width:5em;
+  }
+  
+  .mastercard-icon::before {
+    background-color: #eb001b;
+    left: 0;
+    top: 0;
+  }
+  
+  .mastercard-icon::after {
+    background-color: #f79e1b;
+    mix-blend-mode: hard-light;
+    right: 0;
+    top: 0;
+  }
+
+
+
+
+
+
+
+
+  /*informações cartao*/
+
+
+  .chip{
+      width: 30px;
+      height: 30px;
+  
+      position: relative;
+      top: 50px;
+      left: 30px;
+  }
+  .imagemchip{
+      width: 90px;
+      height: 90px;
+      border-radius: 1000px;
+  }
+
+  .image-aproximacao{
+      position: relative;
+      left: 140px;
+      top: 50px;
+
+  }
+
+  .imagem-aproximacao-simbol{
+      width: 32px;
+      position: relative;
+  }
+
+
+
+
+
+
+
+
+.logo-NU{
+    position: relative;
+    top: 50px;
+    left: 30px;
+}
+
+
+  .simbolo-nubank{
+      width: 180px;
+    
+  }
+.nome-pessoa{
+    position: relative;
+    font-size: 20px;
+    left: 200px;
+    bottom: 70px;
+    text-transform: uppercase;
+
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 900;
+    color: rgb(177, 177, 177);
+}
+
+
+
+
+
+
+
+
+.barra{
+    width: 100%;
+    height: 70px;
+    position: relative;
+    background-color: rgb(156, 156, 156);
+    border-radius: 10px;
+    top: 0px;
+}
+
+.topo{
+    display: flex;
+}
+
+.texto-back-esquerda{
+    top: 0px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 900;
+    color: rgb(177, 177, 177);
+    font-size: 8px;
+    position: relative;
+    left: 30px;
+}
+
+.texto-back-direita{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 900;
+    color: rgb(177, 177, 177);
+    font-size: 8px;
+    position: relative;
+    left: 245px;
+}
+
+.lado-esquerdo{
+    position: relative;
+    width: 30px;
+    left: 30px;
+}
+
+.title-platinum{
+    font-family: 'Courier New', Courier, monospace;
+    color:rgb(255, 255, 255);
+}
+
+.simbolo-redondo{
+    background-color: rgb(172, 172, 172);
+    width: 100px;
+    height: 55px;
+    border-radius: 90px;
+}
+
+
+
+.imagem-baloes{
+    width: 30px;
+    position: relative;
+    left: 0px;
+    
+    
+}
+
+.text-imagembaloes{
+    color: rgb(172, 172, 172);
+    position: relative;
+    bottom: 15px;
+    left: 5px;
+    font-size: 14px;
+}
+.text-imagembaloes-negrito{
+    font-size: 14px;
+    position: relative;
+    top: 5px;
+    right: 155px;
+    color: rgb(172, 172, 172);
+    font-weight: 900;
+}
+
+.lado-direito{
+    position: relative;
+    left: 250px;
+    bottom: 100px;
+}
+
+.balao01{
+    display: flex;
+    width: 390px;
+}
+
+
+#balaoduvida{
+    width: 60px;
+    left: -15px;
+    top: 5px;
+    position: relative;
+}
+
+
+#texto-meajuda{
+    position: relative;
+    left: -20px;
+}
+
+#number{
+    position: relative;
+    right:160px;
+}
+#ouvidoria{
+    position: relative;
+    top: 40px;
+    left: -240px;
+}
+
+
+
+
+
+.numero-cartao{
+    position: relative;
+    color: white;
+    bottom: 90px;
+    left: 30px;
+}
+
+
+.data{
+    position: relative;
+    color: white;
+    bottom: 100px;
+    left: 90px;
+}
+.data2{
+    position: relative;
+    color: white;
+    bottom: 136px;
+    left: 240px;
+}
+.data3{
+    position: relative;
+    color: white;
+    bottom: 170px;
+    left: 390px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.mastercard-icon2 {
+    display: flex;
+    height: 1em;
+    isolation: isolate;
+    position: relative;
+    line-height: 1em;
+    vertical-align: middle;
+    width: 1.611em;
+    left: 490px;
+    bottom: 250px;
+  }
+  
+  .mastercard-icon2::before,
+  .mastercard-icon2::after {
+    border-radius: 110px;
+    content: "";
+    display: inline-block;
+    height: 3em;
+    position: absolute;
+    width:3em;
+  }
+  
+  .mastercard-icon2::before {
+    background-color: #008deb;
+    left: 0;
+    top: 0;
+  }
+  
+  .mastercard-icon2::after {
+
+    background-color: #1f1bf788;
+    mix-blend-mode: hard-light;
+    right: 0;
+    top: 0;
+  }
+  .cirrus{
+      position: relative;
+      left: 475px;
+      bottom: 230px;
+      color: white;
+      
+  }
